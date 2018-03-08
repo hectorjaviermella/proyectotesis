@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  idproyecto : number;
+  nombre : string;
+  fecha: Date;
+  descripcion: string;
+  idtaxonomia: number;
+
+
+  constructor(){
+     this.idproyecto =1;
+     this.nombre="proyecto1";
+     this.fecha=null;
+     this.descripcion="descripccion proyecto1"
+     this.idtaxonomia=1;
+  }
 }
